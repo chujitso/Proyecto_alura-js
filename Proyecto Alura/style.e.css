@@ -1,0 +1,106 @@
+*{
+    background: rgb(83, 206, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    line-height: 1em;
+    
+}
+.logo{
+    padding-top: 1em;
+    margin-left: 0.5em;
+    width: 8%;
+}
+main{
+    display:flex;
+    margin-top:20px;
+    margin-left:20px;
+}
+::placeholder{color: aliceblue;}
+.text-area{
+    width: 100%;
+    vertical-align: top;
+    margin:0px 500px 0px 0px;
+    border-radius: 20px;
+    text-transform: lowercase;
+    border: none;
+    text-align: center;
+    background:linear-gradient(rgb(83, 206, 255),rgba(0, 0, 0, 0.788));
+   
+    
+}
+.mensaje{
+    width: 100%;
+    vertical-align: top;
+    margin: 0px 0px 50px 300px;
+    border-radius: 20px;
+    margin-right:20px;
+    text-align:center;
+    background-image: url(para_encrip2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border:none;
+}
+
+    .botones{
+    text-align:center;
+    margin: 10px;
+}
+.botonEncriptar{
+    background: white;
+    border-radius: 10px;
+}
+.botonEncriptar:active{
+    border-color: red;
+}
+.botonDesencriptar{
+    background: black;
+    border-radius: 10px;
+    color: white;
+}
+.botonDesencriptar:active{
+    border-color: red;
+}
+.copyText{
+    background: white;
+    border-radius: 10px;
+    margin: 180px 0 0 -330px;
+}
+.copyText:active{
+    border-color: red;
+}
+.pasteText{
+    background: black;
+    border-radius: 10px;
+    color: white;
+}
+.pasteText:active{
+    border-color: red;
+}
+
+.informacion{
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 0 0 3px 0;
+    margin-block: 0;
+    background:linear-gradient(rgb(83, 206, 255),rgba(0, 0, 0, 0.788));
+}
+
+
+    
+    
+    
+    
+
+
+    
+
+
+
+
+   
+   
+
+
+
